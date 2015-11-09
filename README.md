@@ -1,52 +1,170 @@
-# 123
+# 2015-11-09随想
+
+你当初偷懒的，生活都会在某个时间加倍还给你……
+
+## 论工资提法
 
 
-Artwork by [nodeonly](http://www.github.com/nodeonly/).
+法1：消极怠工法
 
-[![Deps](https://david-dm.org/nodeonly/123.svg)](https://david-dm.org/nodeonly/123) 
-[![npm](https://img.shields.io/npm/v/123.svg)](https://www.npmjs.com/package/123)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/nodeonly/123/master/LICENSE.md)
-[![npm](https://img.shields.io/npm/dt/123.svg)](https://www.npmjs.com/package/123)
+消极怠工，以期领导反应，如果领导没注意到，就一直这样。。。
+
+可是你领导就是没注意到，就是装作没看到呢？
+
+于是。。。你就整日无所事事？
+
+法2：闷葫芦法
+
+就闷着，不说，谁也不知道，如果你一直不给涨，一旦提离职，立马离职。。。
 
 
-## Install
+法3：好好表现法
 
-    [sudo]npm install -g 123
+此法有2种可能性，取决于你的领导
 
-## Usage 
+领导好，有识人之能，好好表现，自然会被看到眼里，就算领导不咋地，至少你能学到东西
+
+还有一种可能，公司会控制成本，
+
+- 挑战你的接受极限，公司节省成本
+- 一堆人里挑几个涨工资
+
+不管哪种，其实都是一样的，好好表现还是要的
+
+
+## 技巧与经验
+
+互联网时代，是个好时代，世界是平的
+
+技巧已经不是问题。
+
+随便google，只要不是搜商太低，基本都能找到，就算笨点，搜一百页总能搜到吧
+
+就像搜种子一样，相信你们的能力。
+
+但是经验性的东西是搜不到的，也不是能学到的，是实践的来的
+
+那么经验怎么来？
+
+- 生成环境的工作是最直接的提升
+
+就好比做架构规划一样，百万以下体现不出水平，可是没做过千万级别的人，你相信他能做出千万的系统？
+
+常常迷于技巧的人，会眼高手低。。。可怕的事实是长期的眼高手低。。。
+
+我的逻辑最简单，手上的先玩明白了，做到极致，然后再折腾其他的，如果该做的都没做，你到底是怎么想的呢？
+
+
+## 学习别人的习惯
+
+学习3境界
+
+- 1）跟人学，学习惯
+- 2）读书，读好书
+- 3）自悟，自省
+
+第一种是捷径，进步最快的，第二种看自己，只要肯努力，勤奋，一样会进步很快
+
+第三种是比较慢，一旦可以做到，那就是大师级别的
+
+为什么要讲这个呢？
+
+因为我发现，有的人你怎么教他他都记不住
+
+- 你让他记目录记不住
+- 你让记住ps -ef|grep xxx，这次记住了，下次就不记得了
+- 你不让他用鼠标，二分钟后他又。。。。
+
+对这种人真是可怜又可恨，能不能有点出息啊？
+
+笨点我都可以理解，但反复都学不会，是神马性质问题呢？
+
+## 态度比能力更重要
+
+有点时候，别人看的是你的态度，而不全是你的能力
+
+比如安排了一个工作，即使你不会，即使你明知道搞不定。就算你装，你也要晚晚的走
+
+当然付出时间的代价，最好的状态是解决了，第二天去请功，最差搞不定，你的主管也不好意思骂你
+
+最主要的是你让别人看到你尽力而为，而不是搞不定就不钻研
+
+某天，开发一个客服页面，设计师给出了交互，左右滑动，而且可以点击左右的按钮
+
+这其实很简单，结果被做成了：只有左右滑动，左右的按钮没了...
+
+原因是他不知道怎么做，然后和设计师一商量，就干掉需求了
+
+且不说这个问题的性质，就单单搞不定这事儿，我就很郁闷了，能实现左右滑，就不能加个按钮触发么？
+
+如果这点时间都不肯花费，能做好么？
+
+《小王子》对玫瑰的爱，就是以花费时间为衡量标准，其实编码也一样，在这方面付出的时间足够多，你玩出了乐趣，你就真的会热爱这个职业的
+
+如果不快乐，趁早换职业吧
+
+## 学习要掌握方法
+
+学一样东西就要掌握透了，别傻呵呵的一知半解
+
+始终去验证自己的方法是不是正确的
+
+比如jade
 
 ```
-123
+    div(class="container js_container")
+      div(class="page")
+        div(id="wrapper")
+          div(id="scroller")
+            div(class="banner")
+              img(src="#{head_img_src}")
+            div(class="bd-goods")
+              p(class="goods-detail") #{title}aaaaaaaaaaaaaaa
 ```
 
-## Code
+还能写的更丑一些么？
+
+最基本的常识你真的理解了么？
 
 ```
-  #!/usr/bin/env node
-
-  var 123 = require("123");
-  123();
+div(class="page")
 ```
 
-## Contributing
+写成
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+```
+.page
+```
 
-## 版本历史
+不是非常精简么？
 
-- v1.0.0 初始化版本
+我他妈培养的不是拷贝粘贴的人，那样有意思么？
 
-## 欢迎fork和反馈
+再有，重复做的事儿一定是有问题的
 
-- write by `nodeonly` nodeonly@126.com
+moa-frontend使用`jquery  + bootstap`经典技术栈，然后配合`express + jade`
 
-如有建议或意见，请在issue提问或邮件
+经常使用 bootstrap 然后转jade。
 
-## License
+html转jade是比较省力的一种方法
 
-this repo is released under the [MIT
-License](http://www.opensource.org/licenses/MIT).
+使用场景：尤其是写bootstrap的时候，当然静态页面转jade也一样
+
+hade是一个html2jade.org的copy，平常打开这个网站比较慢，索性还是在本地弄一个，用的时候一条命令打开
+
+```
+[sudo] npm install -g hade
+hade
+```
+
+https://github.com/i5ting/hade
+
+      
+## 前后端分离实践
+
+- 前端：[moa-frontend](https://github.com/moajs/moa-frontend)
+  - public下面的采用nginx做反向代理
+  - 其他的采用express+jade精简代码（ajax与后端交互）
+- 后端：[moa-api](https://github.com/moajs/moa-api)
+
+其他代码上见吧
